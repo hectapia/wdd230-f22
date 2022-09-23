@@ -2,12 +2,13 @@ body {
   display: block;
   background-color: white;
   font-family: "MontserratBold",Helvetica,Arial,sans-serif;
-  font-size: 1.1em;
+  
   margin: 10px auto;
-  width: 600px;
+  width: 400px;
 }
 h1 {
   padding: 15px;
+  font-size: 1.0rem;
 }
 h2 {
   display: block;
@@ -16,7 +17,6 @@ h2 {
 }
 header {
   display: flex;
-  font-size: 0.9em;
 }
 footer {
 display: block;
