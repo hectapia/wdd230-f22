@@ -1,4 +1,4 @@
-@charset "UTF-8"; /* not necessary */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -10,7 +10,6 @@ body {
 	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 }
 
-/* phone or baseline views **************************/
 header,
 footer {
 	background-color: #02476d;
@@ -53,15 +52,11 @@ nav ul li a {
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 0.95rem;
-	/*background: linear-gradient(90deg, transparent, yellow, transparent) top /
-		var(--d, 0) 10px no-repeat;
-	transition: 0.5s;*/
 }
 
 nav a:hover {
     background-color: #027e21;
     color: #fff; 
-    /*--d: 75%;*/
 }
 
 .active {
