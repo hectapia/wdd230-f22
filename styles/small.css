@@ -25,7 +25,7 @@ text-align: center;
 }
 .shadowbox {
   color: white;
-  background-color: blue;
+  background-color: rgb(0, 76, 118);
   padding: 15px;
   border-radius: 5px;
   margin: auto;
