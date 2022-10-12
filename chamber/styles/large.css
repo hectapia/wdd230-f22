@@ -1,7 +1,7 @@
 /* Larger viewports */
 @media only screen and (min-width: 50.6em) {
 	.logo img {
-		width: 50%;
+		width: 125px;
 	}
 
 	.headings h1 {
@@ -132,6 +132,13 @@
 		display: flex;
 		justify-content: center;
 		flex-direction: row;
+
+    .footer-site-name h2 {
+      display: flex;
+      margin-top: 1px ;
+      margin-bottom: 1px;
+      justify-content: left;
+    }
 	}
 	
  }

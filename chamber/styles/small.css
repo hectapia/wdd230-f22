@@ -267,7 +267,7 @@ footer {
 	display: flex;
 	margin-top: 1px ;
 	margin-bottom: 1px;
-	justify-content: left;
+	justify-content: center;
 }
 
 .workInfo p {

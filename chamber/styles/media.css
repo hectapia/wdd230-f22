@@ -1,7 +1,7 @@
 /* Larger viewports */
 @media only screen and (min-width: 32.5em) {
 	.logo img {
-		width: 35%;
+		width: 125px;
 	}
 
 	.headings h1 {
