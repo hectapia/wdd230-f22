@@ -1,5 +1,5 @@
 /* Larger viewports */
-@media only screen and (min-width: 50.6em) {
+@media only screen and (min-width: 65em) {
 	.logo img {
 		width: 125px;
 	}
@@ -12,29 +12,6 @@
 	.m {
 		letter-spacing: 1.5pt; 
 		font-size: 0.9rem;
-	}
-
-	/* Media Query for medium+ views */
-
-	nav {
-		background-color:  #fff;
-	}
-
-	.navigation {
-		display: flex;
-	}
-
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-
-	.navigation a {
-		text-align: center;
-	}
-	
-	.navigation li:first-child {
-		display: none;
 	}
 
 	.social {
@@ -57,7 +34,7 @@
 
 
 
-/* 64em is also 1040px when basefont is 16px */
+/* 64em is also 1040px o 1028 when basefont is 16px */
 @media only screen and (min-width: 65rem) {
 
     h1 {
@@ -67,13 +44,15 @@
     h2 {
         font-size: 1.5em;
     }
-
-    .navigation {
-        margin-top: 30px;
-    }  
  
+    nav {
+      background-color: white;
+  }
     nav ul li a {
         padding: .5rem 1rem;
+        position: relative;
+    
+
     }
 
 }
